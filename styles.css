@@ -1,0 +1,110 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:0%;
+    padding: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.banner{
+    width:auto;
+    height:100%;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(backgroundimageeye.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    width: 85%;
+    margin: auto;
+    padding: 35px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top:-10px;
+    background: rgba(11, 186, 255, 0.5);
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.logo{
+    width: 120px;
+    cursor: pointer;
+}
+.navbar ul li{
+    list-style:none;
+    display:inline-block;
+    margin:0 20px;
+    position: relative;
+    margin-top:10px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color:#fff;
+    text-transform: uppercase;
+
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #d6b70a;    
+    position: absolute;
+    left: 0;
+    bottom: -7px;
+    transition: 0.5s;
+}
+.navbar ul li:hover::after{
+    width: 100%;
+}
+.content{
+    width:100%;
+    position: absolute;
+    top: 33%;
+    transform: translateY(-50%);
+    text-align: left;
+    left: 7%;
+    color: white;
+}
+.content h1{
+    font-size: 70px;
+    margin-top: 80px;
+    line-height: 75px;
+}
+.content p{
+    margin: 20px auto;
+    font-size: 20px;
+    font-weight: 90;
+    line-height: 25px;
+    margin-left: 3px;
+}
+.images{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-right:100px;
+    transition: 1s;
+}
+.images img{
+    margin:0 38px;
+    max-width:500px;
+    top:40%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    float: left;
+    width:  500px;
+    height: 300px;
+    object-fit: cover
+}
+.images img:hover{
+    transform:scale(1.1);
+}
+.box{
+    margin-top:480px;
+    width: 100%;
+    height: 300px;
+    background: rgba(255, 255, 255, 1);
+    padding: 40px;
+}
