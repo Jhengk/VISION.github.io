@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    margin:0%;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+section{
+    height: 400px;
+    width: 100vw;
+}
+h1{
+    justify-content: center;
+    font-size: clamp(80px, 10vw, 130px);
+    text-align: center;
+    position:relative;
+    padding-top:70px;
+}
+p{
+    font-size: clamp(15px, 9vw, 30px);
+    text-align: center;
+    font-weight: 200;
+    position:relative;
+    margin-top:-30px;
+}
+h2{
+    justify-content: center;
+    font-weight:300;
+    text-align:center;
+    padding-top:30px;
+}
+.one{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 195, 255, 0.75)),url(backgroundimageeye.jpg);
+    background-size: cover;
+    background-position: center 25%;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-shadow: 0px 5px 13px rgb(29, 30, 51);
+    box-shadow: 0px 10px 30px #888888;
+}
+.two{
+    justify-content: center;
+    display: block;
+    height:430px;
+    box-shadow: 0px -10px 30px #888888;
+    padding-bottom:clamp(0px,0px,-30px);
+}
+.box{
+    margin-top:50px;
+    width: 100vw;
+    height: 300px;
+    background: rgb(59, 59, 59);
+    padding: 5px;
+    padding-bottom:430px;
+}
+.images{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    transition: 1s;
+    margin-top:50px;
+}
+.images img{
+    margin:0 38px;
+    max-width:500px;
+    top:40%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    float: left;
+    width:  50vw;
+    height: clamp(300px,30vw,350px);
+    object-fit: cover
+}
+.images img:hover{
+    transform:scale(1.1);
+}
+.three{
+    /*margin-top:clamp(120px, 13vw, 180px);*/
+    /*background-color:#2b2b2b;*/
+    height:300px;
+    width:100%;
+    color: rgb(0, 0, 0);
+    padding-top:50px;
+    padding-left:clamp(20px,6vw,110px);
+    padding-right:clamp(20px,6vw,110px);
+    margin-left: 20px;
+    margin-bottom:clamp(-20px,6vw,-30px);
+}
+h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+p2{
+    font-size:clamp(5px,2vw,20px);
+    text-align: justify;
+    font-weight:200;
+}
+p3{
+    font-size:clamp(5px,2vw,20px);
+    font-weight:500;
+
+}
+button, a.button {
+    margin-top: 20px; /* Add margin between buttons */
+    font-family: Arial, sans-serif; /* Use Arial font for buttons */
+    font-size: 16px; /* Set font size */
+    padding: 10px 20px; /* Add padding to buttons */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Add border radius */
+    background-color: #4ca0af; /* Set button background color */
+    color: #fff; /* Set button text color */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Add smooth transition for background color */
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-left:30px;
+}
